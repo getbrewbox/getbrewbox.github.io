@@ -4,91 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BrewBox - Automation for Microbreweries</title>
+    <title>BREWBOX - Data Collection for Craft Breweries</title>
 
 	<!-- Typekit -->
-	<script type="text/javascript" src="//use.typekit.net/tkv3npo.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/nfv6njf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <!-- Bootstrap -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 	<style>
+		
 		body {
-			background: #eee;
-			color: #222;
-			text-align: center;
-			font-family: "athelas", serif;
+			background: #333 url('brewbox.jpg') no-repeat center center;
+			font-family: "chaparral-pro",georgia,serif;
+			background-size: cover;
 		}
 
-		.lead {
-			margin: 100px 0 0;
-		}
-
-		h1 {
-			margin-top: 8px;
-			margin-bottom: 30px;
-			font-size: 60px;
-			font-family: "ronnia-condensed", sans-serif;
-		}
-
-		.bb:hover {-webkit-animation: bounce;}
-
-		.bb {
-			display: inline-block;
-			margin: 0 2px -2px;
-			width: 47px;
-			height: 47px;
-			border: 1px solid #111;
-			border-radius: 4px;
-			background: #000;
-		}
-
-		.bb b {
-			width: 7px;
-			height: 7px;
-			border-radius: 10px;
-			background: white;
-			display: block;
-			margin: 3px;
-		}
-		.bb b:nth-of-type(1) {
-			background: #ff4953;
-		}
-
-		.bb b:nth-of-type(2) {
-			background: #fff949;
-		}
-
-		.bb b:nth-of-type(3) {
-			background: #5af547;
-		}
-
-		.btn-default {
-			background-image: none !important;
-			text-shadow: none;
-		}
-		.btn-default i {
-			position: relative;
-			top: 2px;
-		}
-
-/*		.bb b:nth-of-type(3)	{
-			-webkit-animation: blink 3.5s infinite;
-			animation: blink 3.5s infinite;
-		}
-		@-webkit-keyframes blink {
-			0% {background: white;}
-			50% {background: #5af547;}
-		}
-		@keyframes blink {
-			0% {background: white;}
-			50% {background: #5af547;}
-		}
-*/	</style>
+	</style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -106,8 +41,17 @@
   </head>
 
   <body>
-  	<p class="lead"><em>Hallo</em></p>
-    <h1><span class="bb animated tada"><b></b><b></b><b></b></span>BrewBox</h1>
+
+  <div class="container">
+  	<div class="row">
+  		<div class="col-xs-12">
+  			<img src="brewbox-diagram.svg">
+
+  			<p class="lead text-center">Logs the temperature while you brew. <br>Reveals the data behind the flavors you craft.</p>
+  		</div>
+  	</div>
+  </div>
+
     <a class="btn btn-default btn-lg" href="/BrewBox-Project-Summary.pdf"><i class="glyphicon glyphicon-download"> </i> Download the Project Summary</a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
